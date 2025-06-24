@@ -1,5 +1,9 @@
 Проект: VetCat
 Функции: регистрация, авторизация, запись на прием, просмотр врачей, просмотр услуг, просмотр отзывов, личный кабинет.
+php: version 8.1
+apache: 2.4
+mariadb: 10.8
+
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
