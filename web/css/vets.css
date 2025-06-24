@@ -1,0 +1,362 @@
+.bl_1{
+    padding: 8.9vw 4vw 1.4vw 4vw;
+    background: url('../images/background_8.png'), linear-gradient(156deg, rgb(0 140 57) 0%, rgb(3 67 29) 56%, rgb(3 195 51) 100%);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 6%, 100%;
+    height: auto;
+    background-position-x: 0vw, center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position-y: 106.4vw, center;
+}
+.panel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1.4vw;
+}
+.spisok{
+    background-color: white;
+    height: auto;
+    padding: 3vw;
+    box-sizing: border-box;
+    border-radius: 2.6vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.spisok > a{
+    font-size: 1.7vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+
+
+}
+.spisok > .bl{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    height: 100%;
+}
+.bl > .letter{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+.letter > .first{
+    font-size: 1.3vw;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: none;
+    width: 17.8vw;
+    border: 2px solid #f5f5f5;
+    border-radius: 44px;
+    padding: 5px 34px;
+    display: flex;
+    align-items: center;
+}
+.letter > a{
+    font-size: 1.3vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.bl_1 > .panel > .right_column{
+    width: 44vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+    justify-content: space-between;
+}
+.search_vet{
+    background-color: white;
+    padding: 3vw;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    border-radius: 2.6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.search_vet > .search{
+    height: 4.8vw;
+    padding: 2vw;
+    box-sizing: border-box;
+    border-radius: 2.1vw;
+    border-width: 0.4vw;
+    border-color: rgb(37, 37, 37);
+    border-style: solid;
+    font-size: 1.7vw;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+#w1.list-view::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+#w1.list-view::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+#w1.list-view::-webkit-scrollbar-thumb {
+    background-color: rgb(37,37,37);
+    border-radius: 20px;
+}
+#w1 .summary{
+    color: #afafaf;
+}
+#w1.list-view{
+    height: 200px;
+    overflow-y: scroll;
+}
+#w1 .item a{
+    color: black;
+    text-decoration: none;
+    font-size: 13pt;
+}
+#w1 .item a:hover{
+    color: rgb(0, 140, 57);
+    transition: .3s;
+}
+.pois{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-group input{
+    padding: 5px;
+    border: 7px double gray;
+    border-radius: 40px;
+    font-size: 16pt;
+    color: black;
+}
+.search_vet > .fa-search{
+    text-align: end;
+    font-size: 2vw;
+    color: rgb(37, 37, 37);
+    position: absolute;
+    right: 9.7vw;
+    top: 17.6vw;
+}
+.search_vet > a{
+    font-size: 1.6vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.vets-search #w0{
+    display: flex;
+    align-items: flex-end;
+}
+.vets-search #w0 .pois{
+    display: flex;
+}
+.trud{
+    width: 100%;
+    height: auto;
+    padding: 1.6vw 3vw 1.6vw 3vw;
+    background-color: white;
+    display: flex;
+    gap: 2vw;
+    border-radius: 2.6vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.trud > a{
+    font-size: 1.6vw;
+    color: rgb(37, 37, 37);
+    font-weight: bolder;
+}
+.trud > .yakor{
+    width: 4vw;
+    height: 4vw;
+    background-color: rgb(37,37,37);
+    border: none;
+    border-radius: 2vw;
+    color: white;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.trud > .yakor:hover{
+    background-color: rgb(24, 23, 23);
+    transition: .3s;
+    cursor: pointer;
+}
+.cardss{
+    width: 100%;
+    margin-top: 1.4vw;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 1.4vw;
+}
+.cardd{
+    width: 49.2%;
+    box-sizing: border-box;
+    height: 20vw;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 2.6vw;
+    display: flex;
+
+}
+.cardd > .img{
+
+    width: 60%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.9vw;
+}
+.cardd > .t_bl{
+    padding: 1vw 1vw 1vw 2vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: space-between;
+}
+.cardd > .t_bl > .bl_top{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.cardd > .t_bl > .bl_top > .name_dolzh{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.cardd > .t_bl > .bl_top > .name_dolzh > .zag{
+    font-size: 1.7vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.cardd > .t_bl > .bl_top > .name_dolzh > .dol{
+    font-size: 1vw;
+    color: rgb(140, 140, 140);
+    font-weight: normal;
+}
+.cardd > .t_bl > .bl_top > .work{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.cardd > .t_bl > .bl_top > .work > a{
+    font-size: 1vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+
+}
+.cardd > .t_bl > .bl_bot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.cardd > .t_bl > .bl_bot > a{
+    font-size: 1.1;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+.cardd > .t_bl > .bl_bot > button{
+    background-color: rgb(37, 37, 37);
+    width: 11vw;
+    padding: 1vw 2vw;
+    cursor: pointer;
+    gap: 1vw;
+    text-decoration: none;
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 2.6vw;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardd > .t_bl > .bl_bot > button:hover{
+    background-color: rgb(24, 23, 23);
+    cursor: pointer;
+    transition: .3s;
+}
+.bl_1 > .more{
+    background-color: rgb(37, 37, 37);
+    justify-content: center;
+    width: 20vw;
+    padding: 1.4vw 2vw;
+    cursor: pointer;
+    display: flex;
+    gap: 1vw;
+    text-decoration: none;
+    font-size: 1.76vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 2.6vw;
+    border: none;
+    margin-top: 1.4vw;
+}
+.bl_1 > .more:hover{
+    background-color: rgb(24, 23, 23);
+    cursor: pointer;
+    transition: .3s;
+}
+.bl_2{
+    width: 100%;
+    padding: 4vw 6vw;
+    background: url('../images/background_7.png'), url('../images/vet_1.png');
+    background-position: top, bottom;
+    background-size: 62vw, 30vw;
+    background-position-x: 0, 70vw;
+    height: 53vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position-y: -4vw, 10vw;
+}
+.bl_2 > #zag{
+    font-size: 4.4vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    width: 80vw;
+    display: flex;
+}
+.bl_2 > #text{
+    font-size: 2.2vw;
+    color: rgb(37, 37, 37);
+    font-weight: lighter;
+    width: 50vw;
+    display: flex;
+    margin-top: 8vw;
+}
+.bl_2 > button{
+    background-color: rgb(37, 37, 37);
+    justify-content: center;
+    width: 20vw;
+    padding: 1.4vw 2vw;
+    cursor: pointer;
+    display: flex;
+    gap: 1vw;
+    text-decoration: none;
+    font-size: 1.76vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 2.6vw;
+    border: none;
+}
+.bl_2 > button:hover{
+    background-color: rgb(24, 23, 23);
+    transition: .3s;
+    cursor: pointer;
+}

@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+}
+a{
+    text-decoration: none !important;
+}
+.element-animation{
+    top: 20px;
+    opacity: 0;
+    position: relative;
+}
+.element-animation.element-show{
+    position: relative;
+    top: 0;
+    opacity: 1;
+    transition-duration: 1.4s;
+}
+body{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 0.5vw;
+
+}
+body::-webkit-scrollbar-track {
+    background: rgb(160, 221, 124);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(37,37,37);
+    border-radius: 20px;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 7.4vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    transition: top 0.3s;
+    z-index: 800;
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+}
+.header > .container{
+    min-width: 100%;
+    box-sizing: inherit;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8vw
+}
+header > .cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 6vw;
+    width: 100%;
+
+}
+.cont > .menu{
+    display: flex;
+    gap: 3.6vw;
+    align-items: center;
+}
+#w0{
+    background: none !important;
+}
+.nav .nav-item{
+    color: black;
+    --bs-nav-link-padding-x: 0 !important;
+}
+.nav .nav-link{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: rgb(37, 37, 37);
+}
+.nav .nav-link:hover{
+    transition: .3s;
+    color: rgb(79, 119, 53);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1.3vw;
+}
+.logo > .logo_img{
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/logo/logo.png);
+    background-size: contain;
+    outline: none;
+}
+.logo > a{
+    font-size: 2.2vw;
+    color: rgb(79, 119, 53);
+    font-weight: bold;
+}
+header > .cont > .menu > a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: rgb(37, 37, 37);
+}
+header > .cont > .menu > a:hover{
+    transition: .3s;
+    color: rgb(79, 119, 53);
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(37,37,37);
+    padding: 4vw;
+    font-size: 1.6vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+footer > .left_column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    gap: 2vw;
+}
+footer > .left_column > a{
+    color: rgb(80,80,80);
+}
+footer > .left_column > .menu{
+    display: flex;
+    flex-direction: column;
+}
+footer > .left_column > .menu > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4vw;
+}
+footer > .left_column > .menu > a:hover{
+    color: rgb(189, 189, 189);
+    transition: .3s;
+}
+footer > .right_column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    gap: 2vw;
+}
+footer > .right_column > .contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+footer > .right_column > .contacts > a{
+    color: rgb(80,80,80);
+}
+footer > .right_column > .contacts  > .ph_numbers{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4vw;
+}
+footer > .right_column > .social{
+    color: rgb(80,80,80);
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+footer > .right_column > .social > .soc{
+    display: flex;
+    gap: 2vw;
+    box-sizing: border-box;
+}
+footer > .right_column > .social > .soc > a > img{
+    width: 4vw;
+}
+.social > .soc > a{
+    font-size: 3.4vw;
+}
+
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1888;
+}
+#okno {
+    width: 76vw;
+    height: fit-content;
+    text-align: center;
+    padding: 2vw;
+    border-radius: 4.6vw;
+    color: rgb(37, 25, 7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+#zatemnenie:target {display: block;}
+
+#okno .review_form {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 2.6vw;
+    padding: 2vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+    align-items: flex-start;
+}
+#okno .review_form a{
+    font-size: 23pt;
+}
+#okno .review_form .form{
+    width: 100%;
+}
+#okno .review_form .form .name_phone{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    gap: 30px 0;
+
+}
+#okno .review_form .form input{
+    padding: 20px;
+    border: 7px double gray;
+    border-radius: 40px;
+    font-size: 16pt;
+    color: black;
+
+}
+#okno .review_form .form input::placeholder{
+    color: #bdbdbd;
+}
+#okno .review_form .button{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+#okno .review_form .button .close{
+    padding: 20px;
+    border: 7px double #959595;
+    background: #959595;
+    border-radius: 40px;
+    font-size: 16pt;
+    text-decoration: none;
+    color: white;
+}
+#okno .review_form .button #btn{
+    width: 200px;
+    padding: 20px;
+    background: rgb(79, 119, 53);
+    border-radius: 40px;
+    font-size: 16pt;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    border: 7px solid rgb(79, 119, 53);
+}
+#okno .review_form .button .close:hover{
+    background: white;
+    padding: 20px;
+    border: 7px double gray;
+    border-radius: 40px;
+    font-size: 16pt;
+    color: black;
+    transition: .3s;
+}
+#okno .review_form .button #btn:hover{
+    background: white;
+    padding: 20px;
+    border: 7px double rgb(79, 119, 53);
+    border-radius: 40px;
+    font-size: 16pt;
+    color: black;
+    transition: .3s;
+}

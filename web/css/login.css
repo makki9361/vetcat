@@ -1,0 +1,48 @@
+.bl_1{
+    padding: 1vw 4vw 1.4vw 4vw;
+    background: linear-gradient(138deg, rgb(0 140 57) 0%, rgb(9 52 19) 100%);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 54vw;
+    justify-content: center;
+}
+.mb-3 input{
+    padding: 20px;
+    border: 7px double gray;
+    border-radius: 40px;
+    font-size: 16pt;
+    color: black;
+}
+
+.mb-3 input::placeholder{
+    color: #bdbdbd;
+}
+.form-group > .btn{
+    width: 100%;
+    padding: 20px;
+    background: rgb(79, 119, 53);
+    border-radius: 40px;
+    font-size: 16pt;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    border: 7px solid rgb(79, 119, 53);
+}
+.forma{
+    background: white;
+    border-radius: 67px;
+    padding: 3vw 3vw;
+}
+.form-group .btn:hover{
+    background: white;
+    padding: 20px;
+    border: 7px double rgb(79, 119, 53);
+    border-radius: 40px;
+    font-size: 16pt;
+    color: black;
+    transition: .3s;
+}

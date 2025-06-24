@@ -1,0 +1,278 @@
+.bl_1{
+    padding: 9vw 4vw 1.4vw 4vw;
+    background: linear-gradient(156deg, rgb(0 140 57) 0%, rgb(3 67 29) 56%, rgb(3 195 51) 100%);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.panel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1.4vw;
+}
+.spisok{
+    background-color: white;
+    height: auto;
+    padding: 3vw;
+    box-sizing: border-box;
+    border-radius: 2.6vw;
+    width: 87vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.spisok > a{
+    font-size: 1.7vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+
+
+}
+.spisok > .bl{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw 2vw;
+}
+.bl > .letter{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 12vw;
+}
+.letter > .first{
+    font-size: 1.7vw;
+    color: rgb(140, 140, 140);
+    font-weight: bold;
+    text-shadow: none;
+}
+.letter > a{
+    font-size: 1.3vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    text-shadow: 0px 6px 8.64px rgba(0, 0, 0, 0.35);
+}
+.bl_1 > .panel > .right_column{
+    width: 44vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+    justify-content: space-between;
+}
+.search_vet{
+    background-color: white;
+    padding: 3vw;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    border-radius: 2.6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.search_vet > .search{
+    height: 4.8vw;
+    padding: 2vw;
+    box-sizing: border-box;
+    border-radius: 2.1vw;
+    border-width: 0.4vw;
+    border-color: rgb(37, 37, 37);
+    border-style: solid;
+    font-size: 1.7vw;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+.search_vet > .fa-search{
+    text-align: end;
+    font-size: 2vw;
+    color: rgb(37, 37, 37);
+    position: absolute;
+    right: 9.7vw;
+    top: 17.2vw;
+}
+.search_vet > a{
+    font-size: 1.7vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+
+.cardss{
+    width: auto;
+    margin-top: 1.4vw;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 1.4vw;
+    justify-content: space-between;
+}
+.cardd{
+    width: 29.35vw;
+    height: 30vw;
+    border-radius: 2.6vw;
+    padding: 3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    text-decoration: none;
+    color: rgb(37,37,37);
+    border: none;
+}
+.cardd:hover{
+    margin: -1vw 0 1vw 0;
+    transition: .3s;
+}
+.cardd_1{
+    background-color: rgb(255, 240, 73);
+    background-image: url('../images/dog_3.png');
+    background-position: bottom;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.cardd_2{
+    background-color: rgb(234, 109, 212);
+    background-image: url('../images/cat_1.png');
+    background-position: bottom;
+    background-size: 150%;
+    background-position-y: 10vw;
+    background-position-x: -3vw;
+    background-repeat: no-repeat;
+}
+.cardd_3{
+    background-color: rgb(154, 255, 109);
+    background-image: url('../images/dog_2.png');
+    background-position: bottom;
+    background-size: 120%;
+    background-position-y: 10vw;
+    background-repeat: no-repeat;
+}
+.cardd_4{
+    background-color: rgb(255, 84, 84);
+    background-image: url('../images/popugai.png');
+    background-position: bottom;
+    background-size: 86.3%;
+    background-position-y: 10vw;
+    background-repeat: no-repeat;
+}
+.cardd_5{
+    background-color: rgb(100, 247, 252);
+    background-image: url('../images/shinshill.png');
+    background-position: bottom;
+    background-size: 93.3%;
+    background-position-y: 16vw;
+    background-repeat: no-repeat;
+    background-position-x: 3vw;
+}
+.cardd_6{
+    background-color: rgb(111, 114, 255);
+    background-image: url('../images/rabbit.png');
+    background-position: bottom;
+    background-size: 79.3%;
+    background-position-y: 11vw;
+    background-repeat: no-repeat;
+    background-position-x: 3vw;
+}
+.cardd_7{
+    background-color: rgb(247, 129, 51);
+    background-image: url('../images/dog_5.png');
+    background-position: bottom;
+    background-size: 123.3%;
+    background-position-y: 12vw;
+    background-repeat: no-repeat;
+    background-position-x: -9vw;
+}
+.zag{
+    font-size: 2.2vw;
+    font-weight: bold;
+    color: rgb(37,37,37);
+    text-align: left;
+}
+.price{
+    font-family: Verdana;
+    font-size: 1.6vw;
+    font-weight: lighter;
+    color: rgb(37,37,37);
+}
+.cardd > .img{
+    background: url('../images/vet_2.png'), rgb(213, 245, 195);
+    width: 60%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2.2vw;
+}
+.cardd > .t_bl{
+    padding: 1vw 1vw 1vw 2vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: space-between;
+}
+.cardd > .t_bl > .bl_top{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.cardd > .t_bl > .bl_top > .name_dolzh{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.cardd > .t_bl > .bl_top > .name_dolzh > .zag{
+    font-size: 1.7vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.cardd > .t_bl > .bl_top > .name_dolzh > .dol{
+    font-size: 1vw;
+    color: rgb(140, 140, 140);
+    font-weight: normal;
+}
+.cardd > .t_bl > .bl_top > .work{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.cardd > .t_bl > .bl_top > .work > a{
+    font-size: 1vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+
+}
+.cardd > .t_bl > .bl_bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardd > .t_bl > .bl_bot > a{
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+.cardd > .t_bl > .bl_bot > button{
+    background-color: rgb(37, 37, 37);
+    width: 11vw;
+    padding: 1vw 2vw;
+    cursor: pointer;
+    gap: 1vw;
+    text-decoration: none;
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 2.6vw;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardd > .t_bl > .bl_bot > button:hover{
+    background-color: rgb(24, 23, 23);
+    cursor: pointer;
+    transition: .3s;
+}

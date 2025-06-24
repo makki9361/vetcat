@@ -1,0 +1,193 @@
+main > .bl_1{
+    width: 100%;
+    height: auto;
+    padding: 8.9vw 4vw;
+    box-sizing: border-box;
+    display: flex;
+    gap: 1.4vw;
+    background: url('../images/background_9.png'), linear-gradient(156deg, rgb(0 140 57) 0%, rgb(3 67 29) 56%, rgb(3 195 51) 100%);
+    background-repeat: no-repeat;
+    background-position-y: 20vw, center;
+    background-size: 20%, auto;
+}
+.filter{
+    background-color: white;
+    border-radius: 2.6vw;
+    padding: 3vw;
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.filter > h4{
+    font-size: 1.7vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    margin-bottom: 1vw;
+    width: 15vw;
+}
+.filter > a{
+    font-size: 1.3vw;
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+
+}
+.filter > a#active{
+    color: rgb(37, 37, 37);
+}
+.reviews_bl{
+    width: 81.5%;
+    height: auto;
+    padding: 4vw;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 2.6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 95%;
+}
+.review_cont{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1vw;
+    gap: 1.4vw;
+    justify-content: space-between;
+}
+.review_cont > .left_column{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+}
+.review_cont > .right_column{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 1.4vw;
+}
+.review_cont > .right_column > .img{
+    width: 100%;
+    height: 17vw;
+    background-image: url('../images/cat_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2.2vw;
+}
+.review_cont > .right_column > .img2{
+    background-image: url('../images/dog_1.jpg');
+    background-position-y: -1.5vw;
+}
+#read_m{
+    color: black;
+    text-decoration: none;
+}
+.review_cont > .right_column > .usef{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: rgb(37,37,37);
+    width: 100%;
+    justify-content: center;
+}
+.review_cont > .right_column > .usef > a{
+    font-size: 1.1vw;
+    color: rgb(109, 109, 109);
+}
+.review_cont > .left_column > a{
+    font-size: 1.3vw;
+    color: rgb(37, 37, 37);
+    padding-top: 1.4vw;
+}
+.review_cont > .left_column > .dat_lik{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 21vw
+}
+
+.review_cont > .left_column > .dat_lik > a{
+    font-size: 1.3vw;
+    color: rgb(109, 109, 109);
+
+}
+.review_cont > .left_column > .dat_lik > .likes{
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 3vw;
+}
+.review_cont > .left_column > .dat_lik > .likes > .like{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+}
+.review_cont > .left_column > .dat_lik > .likes > .like > a{
+    font-size: 1.2vw;
+    color: rgb(109, 109, 109);
+}
+.review_cont > .left_column > .dat_lik > .likes > .dislike > a{
+    font-size: 1.2vw;
+    color: rgb(109, 109, 109);
+}
+.review_cont > .left_column > .dat_lik > .likes > .dislike{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+}
+.review_cont > .left_column > .dat_lik > .likes > .like > img{
+    width: 2vw;
+}
+.review_cont > .left_column > .dat_lik > .likes > .dislike > img{
+    width: 2vw;
+}
+.sort > a{
+    font-size: 1.7vw;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.sort{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.sort > .fa-long-arrow-down{
+    color: rgb(88, 88, 88);
+}
+.acc{
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.3vw;
+    color: rgb(37,37,37);
+}
+.ava{
+    width: 4vw;
+    height: 100%;
+    background-image: url('../images/cat_4.jpg');
+    border-radius: 2vw;
+    background-position: center;
+    background-size: 180%;
+    background-position-x: -0.4vw;
+    background-position-y: -2.3vw;
+}
